@@ -1,0 +1,20 @@
+# requirements.txt
+# Fitzwilliam Institute — Base Python environment
+#
+# Install with: pip install -r requirements.txt
+
+# ── Core ────────────────────────────────────────────────────
+# No external packages are required for Python 101.
+# Add packages here as new courses require them.
+
+# ── Data (add when needed) ──────────────────────────────────
+# pandas>=2.0
+# numpy>=1.26
+
+# ── Notebooks (add when needed) ────────────────────────────
+# jupyter>=1.0
+# ipykernel>=6.0
+
+# ── Linting (recommended for all contributors) ─────────────
+# flake8>=7.0
+# black>=24.0
