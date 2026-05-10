@@ -1,4 +1,4 @@
-# Data Analytics — Interactive Apps
+# Data Analytics - Interactive Apps
 **Fitzwilliam Institute · Deepak John Reji · 2026**
 
 A collection of interactive Streamlit apps for the Diploma in Data Analytics course.
@@ -37,7 +37,7 @@ git push -u origin main
 4. Set **Main file path** to: `Home.py`
 5. Click **Deploy**
 
-That's it — Streamlit Cloud installs all dependencies automatically from `requirements.txt`.
+That's it - Streamlit Cloud installs all dependencies automatically from `requirements.txt`.
 
 ---
 
