@@ -1,49 +1,37 @@
 # demo_01_intro.py
-# Python 101 — Week 01: Live Demo
+# Python 101 — Week 01 Live Demo
 # Fitzwilliam Institute
-#
-# This file contains the code demonstrated during the lecture.
-# Students can run it and experiment with it freely.
 
-# ── Running Python ──────────────────────────────────────────
-# Python executes top-to-bottom, line by line.
-print("Python runs from top to bottom.")
-print("Each print() call produces one line of output.")
+# ── Output ──────────────────────────────────────────────────────
+print("Python executes line by line, top to bottom.")
+print("Each print() shows one line of output.")
+print()  # blank line
 
-# ── Variables ───────────────────────────────────────────────
-# A variable stores a value. You choose the name.
-course = "Python 101"
-students = 20
+# ── Variables ───────────────────────────────────────────────────
+course   = "Python 101"
+students = 25
+rating   = 4.9
+active   = True
+
 print("Course:", course)
 print("Students:", students)
+print("Rating:", rating)
+print("Active:", active)
+print()
 
-# ── Data types ──────────────────────────────────────────────
-# str  → text, wrapped in quotes
-# int  → whole number
-# float → decimal number
-# bool → True or False
+# ── Types ───────────────────────────────────────────────────────
+print(type(course))    # <class 'str'>
+print(type(students))  # <class 'int'>
+print(type(rating))    # <class 'float'>
+print(type(active))    # <class 'bool'>
+print()
 
-name   = "Fitzwilliam"   # str
-year   = 2024            # int
-price  = 9.99            # float
-active = True            # bool
-
-print(type(name), type(year), type(price), type(active))
-
-# ── Arithmetic ──────────────────────────────────────────────
-a = 10
-b = 3
-
-print("Addition:      ", a + b)
-print("Subtraction:   ", a - b)
-print("Multiplication:", a * b)
-print("Division:      ", a / b)   # always returns float
-print("Integer div:   ", a // b)  # floor division
-print("Remainder:     ", a % b)   # modulo
-print("Power:         ", a ** b)  # exponent
-
-# ── String basics ───────────────────────────────────────────
-greeting = "Hello"
-audience = "class"
-print(greeting + ", " + audience + "!")  # concatenation
-print(f"{greeting}, {audience}!")        # f-string (preferred)
+# ── Arithmetic ──────────────────────────────────────────────────
+a, b = 17, 5
+print("a + b  =", a + b)
+print("a - b  =", a - b)
+print("a * b  =", a * b)
+print("a / b  =", a / b)    # float division
+print("a // b =", a // b)   # floor division
+print("a % b  =", a % b)    # modulo (remainder)
+print("a ** b =", a ** b)   # exponentiation

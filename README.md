@@ -1,13 +1,13 @@
-# Fitzwilliam Institute — Teaching Repository
+# Fitzwilliam Institute - Teaching Repository
 
-A shared repository for course materials, code examples, and lab exercises across all tech and programming courses taught at Fitzwilliam Institute.
+A shared repository for course materials, code examples, and lab exercises across different tech and programming courses taught at Fitzwilliam Institute.
 
 ---
 
 ## Repository Structure
 
 ```
-fitzwilliam-teaching/
+fitzwilliam-institute/
 ├── courses/                  # One folder per course
 │   ├── _template/            # Copy this when adding a new course
 │   └── python-101/           # Example course
@@ -35,7 +35,8 @@ fitzwilliam-teaching/
 
 | Course | Instructor | Status |
 |--------|------------|--------|
-| [Python 101](./courses/python-101/) | — | Active |
+| [Python 101](./courses/python-101/) | Deepak John Reji | Active |
+| [Data Analytics & Machine Learning](./courses/Data Analytics & Machine Learning/) | Deepak John Reji | Active |
 
 > To add a new course, see [CONTRIBUTING.md](./CONTRIBUTING.md).
 

@@ -1,33 +1,17 @@
-# Week 02 — Lab: Variables, Types & Operators
+# Week 02 — Lab: Data Types & Strings
 
-**Course:** Python 101  
-**Topic:** Data types, f-strings, arithmetic operators
-
----
+**Topic:** str, int, float, bool, type conversion, f-strings, string methods
 
 ## Objectives
-
-By the end of this lab you should be able to:
-- Declare variables of different types (`str`, `int`, `float`, `bool`)
-- Use `type()` to inspect a variable's type
-- Format output using f-strings
-- Apply arithmetic operators to solve simple problems
-
----
+- Understand Python's core data types
+- Convert between types using int(), float(), str()
+- Format output with f-strings
+- Use common string methods
 
 ## Files
-
 | File | Description |
 |------|-------------|
-| `lab_02_exercises.py` | Main exercise file — edit this |
-
----
+| `lab_02_exercises.py` | Work through this |
 
 ## Instructions
-
-1. Open `lab_02_exercises.py` in your editor.
-2. Complete each exercise in order.
-3. Run your file after each exercise to check your output:
-   ```bash
-   python lab_02_exercises.py
-   ```
+Run with: `python lab_02_exercises.py`

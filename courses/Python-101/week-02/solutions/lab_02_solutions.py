@@ -1,46 +1,40 @@
 # lab_02_solutions.py
-# Python 101 — Week 02: Variables, Types & Operators — SOLUTIONS
-# Fitzwilliam Institute
-#
-# ⚠️  STAFF ONLY — Do not share with students before the lab is complete.
+# Python 101 — Week 02 — SOLUTIONS
+# ⚠️  STAFF ONLY
 
-# ─────────────────────────────────────────────
 # Exercise 1
-# ─────────────────────────────────────────────
-student_name = "Alice"
-student_age  = 21
-gpa          = 3.7
-is_enrolled  = True
+age_str = "28"
+age = int(age_str) + 10
+print(age)  # 38
 
-print("Name:", student_name)
-print("Age:", student_age)
-print("GPA:", gpa)
-print("Enrolled:", is_enrolled)
-
-# ─────────────────────────────────────────────
 # Exercise 2
-# ─────────────────────────────────────────────
-print(type(student_name))
-print(type(student_age))
-print(type(gpa))
-print(type(is_enrolled))
+name       = "Alice"
+age        = 22
+height_m   = 1.72
+is_student = True
+print(f"{name} is {age} years old, {height_m} m tall, and is a student: {is_student}")
 
-# ─────────────────────────────────────────────
 # Exercise 3
-# ─────────────────────────────────────────────
-print(f"{student_name} is {student_age} years old and has a GPA of {gpa}.")
+sentence = "Python is easy to learn and fun to use."
+print(sentence.upper())
+print(sentence.lower())
+print(sentence.lower().count('e'))      # 5
+print(sentence.replace("Python", "coding"))
 
-# ─────────────────────────────────────────────
 # Exercise 4
-# ─────────────────────────────────────────────
-ticket_price = 12.50
-group_size   = 7
-total        = ticket_price * group_size
-print(f"Total cost for {group_size} tickets: €{total:.2f}")
+messy = "   Hello there, world!   "
+clean = messy.strip()
+print(clean)
+print(clean.startswith("Hello"))        # True
+print(clean.split())                    # ['Hello', 'there,', 'world!']
 
-# ─────────────────────────────────────────────
-# Exercise 5 (Stretch)
-# ─────────────────────────────────────────────
-celsius    = 100
-fahrenheit = (celsius * 9 / 5) + 32
-print(f"{celsius}°C = {fahrenheit}°F")
+# Exercise 5
+item  = "Notebook"
+price = 4.5
+qty   = 3
+total = price * qty
+print(f"{qty}x {item} @ €{price:.2f} each = €{total:.2f}")
+
+# Exercise 6 (Stretch)
+word = "racecar"
+print(word == word[::-1])               # True
