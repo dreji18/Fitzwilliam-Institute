@@ -36,7 +36,7 @@ fitzwilliam-institute/
 | Course | Instructor | Status |
 |--------|------------|--------|
 | [Python 101](./courses/python-101/) | Deepak John Reji | Active |
-| [Data Analytics & Machine Learning](./courses/Data%20Analytics%20%26%20Machine%20Learning/) | Deepak John Reji | Active |
+| [Data-Analytics-and-Machine-Learning](./courses/Data%20Analytics%20%26%20Machine%20Learning/) | Deepak John Reji | Active |
 
 > To add a new course, see [CONTRIBUTING.md](./CONTRIBUTING.md).
 
